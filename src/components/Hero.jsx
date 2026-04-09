@@ -5,7 +5,7 @@ import { FaShoppingCart } from "react-icons/fa";
 export default function Hero() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-12 mt-10">
-      <div className="grid md:grid-cols-2 items-center gap-10">
+      <div className="grid md:grid-cols-2 items-center gap-10 mt-10">
         
         {/* LEFT SIDE */}
         <div>
