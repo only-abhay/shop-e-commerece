@@ -8,10 +8,10 @@ export default function Categories({category}) {
   <div className="flex flex-col md:flex-row gap-4">
     
     {/* Sidebar */}
-    <div className="bg-white shadow-lg rounded-2xl p-4 w-full md:w-1/4">
+    <div className="bg-white shadow-lg rounded-2xl p-4 w-full ">
       <h2 className="text-xl font-semibold mb-4">Categories</h2>
 
-      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-1 gap-2">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 w-full">
 
         {/* All Products */}
         <Link to="/">
